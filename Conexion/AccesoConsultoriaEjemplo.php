@@ -1,6 +1,6 @@
 <?php
 
-   $serverName = "WIN-OUVEI4V1R4S\MATRIZWORK";   
+   $serverName = "WIN-OUVEI4V1R4S\MATRIZWORK";  
    $database = "ConsultoriaEjemplo";  
 
    // Get UID and PWD from application-specific files.   
