@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-oct-2017, 18:05:27
+    Author     : Proyecto Consultoría
+*/
+
+/* Clases para la Maquetación General*/
+/* Iconos para la navegación ente pantallas*/
+
+body{
+    -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+    cursor: default;
+}
+
+/* For mobile small screen: */
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    .Iconos{
+        width: 45px;
+        height: 82%;
+        left: 0px;
+        top: 0px;
+        display: none;
+        float: left;
+        }
+    /* Cabezera con el título y la fecha*/
+    .Cabezera{
+        width: 100%;
+        height: 15%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    /* Cuerpo donde se colocan los elementos de la página*/
+    .Cuerpo{
+        width: 100%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+        overflow-y: auto;
+    }
+    /* Nombre, mail y redes sociales*/
+    .Cola{
+        width: 100%;
+        height: 12%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+
+
+}
+
+@media only screen and (max-height: 320px) and (orientation: landscape) {
+    .Iconos{
+        width: 45px;
+        height: 82%;
+        left: 0px;
+        top: 0px;
+        display: none;
+        float: left;
+        }
+    /* Cabezera con el título y la fecha*/
+    .Cabezera{
+        width: 96.5%;
+        height: 15%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    /* Cuerpo donde se colocan los elementos de la página*/
+    .Cuerpo{
+        width: 96.5%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+        overflow-y: auto;
+    }
+    /* Nombre, mail y redes sociales*/
+    .Cola{
+        width: 96.5%;
+        height: 12%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) and (orientation: portrait) {
+    .Iconos{
+        width: 45px;
+        height: 82%;
+        left: 0px;
+        top: 0px;
+        display: none;
+        float: left;
+        }
+    /* Cabezera con el título y la fecha*/
+    .Cabezera{
+        width: 96.5%;
+        height: 13%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    /* Cuerpo donde se colocan los elementos de la página*/
+    .Cuerpo{
+        width: 96.5%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+        overflow-y: auto;
+    }
+    /* Nombre, mail y redes sociales*/
+    .Cola{
+        width: 96.5%;
+        height: 12%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+
+
+}
+
+@media only screen and (min-height: 320px) and (max-height: 375px) and (orientation: landscape) {
+    .Iconos{
+        width: 45px;
+        height: 82%;
+        left: 0px;
+        top: 0px;
+        display: none;
+        float: left;
+        }
+    /* Cabezera con el título y la fecha*/
+    .Cabezera{
+        width: 96.5%;
+        height: 16%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    /* Cuerpo donde se colocan los elementos de la página*/
+    .Cuerpo{
+        width: 96.5%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+        overflow-y: auto;
+    }
+    /* Nombre, mail y redes sociales*/
+    .Cola{
+        width: 96.5%;
+        height: 12%;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .Iconos{
+    position: absolute;
+    width: 0%;
+    height: 80%;
+    left: 0px;
+    top: 10%;
+    float: left;
+    transition: .7s ease;
+    }
+    /* Cabezera con el título y la fecha*/
+    .Cabezera{
+        width: 98%;
+        height: 8%;
+        top: 0px;
+        display: block;
+        float: left;
+        margin-bottom: 0.5%;
+        margin-top: 0.5%;
+        margin-left: 1%;
+    }
+    /* Cuerpo donde se colocan los elementos de la página*/
+    .Cuerpo{
+        width: 98%;
+        height: 83%;
+        top: 0px;
+        display: block;
+        float: left;
+        margin-left: 1%;
+    }
+    /* Nombre, mail y redes sociales*/
+    .Cola{
+        width: 100%;
+        height: 8%;
+        top: 0px;
+        display: block;
+        float: left;
+    }
+
+}
+

@@ -1,0 +1,396 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-oct-2017, 18:27:01
+    Author     : Proyecto Consultoría
+*/
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    .iconoMatriz{
+        height: 50%;
+        margin-top: 5%;
+        margin-bottom: auto;
+        display: inline-block;
+        float: left;
+    }
+    .CabezeraTitulo{
+        width: 80%;
+        font-weight: bold;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    .CabezeraFecha{
+        width: 80%;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    
+    /* Estadísticas del panel*/
+    .Estadisticas{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    .Datos{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+    }
+    .Evolutivo{
+        width: 100%;
+        height: 25%;
+        float: left;
+        margin-bottom: 4%;
+        overflow-y: auto;
+        display: none;
+    }
+    .Usuarios{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+        overflow-y: auto;
+        display: none;
+    }
+    
+    /* Cronograma del hito*/
+    .Buzon{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+    }
+    .Informe{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+        overflow-y: auto;
+    }
+    .TituloBuzon{
+        width: 100%;
+        float: left;;
+    }
+    .Mensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 12%;
+        margin-left: 5px;
+    }
+    .AgregarMensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 115px;
+        margin-left: 2px;
+    }
+    
+}
+
+@media only screen and (max-height: 320px) and (orientation: landscape) {
+    .iconoMatriz{
+        height: 95%;
+        margin-bottom: auto;
+        display: inline-block;
+        float: left;
+    }
+    .CabezeraTitulo{
+        width: 80%;
+        font-weight: bold;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    .CabezeraFecha{
+        width: 80%;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    
+    /* Estadísticas del panel*/
+    /* Estadísticas del panel*/
+    .Estadisticas{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    .Datos{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+    }
+    .Evolutivo{
+        width: 100%;
+        height: 25%;
+        float: left;
+        margin-bottom: 4%;
+        overflow-y: auto;
+        display: none;
+    }
+    .Usuarios{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+        display: none;
+    }
+    
+    /* Cronograma del hito*/
+    .Buzon{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+    }
+    .Informe{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+        overflow-y: auto;
+    }
+    .TituloBuzon{
+        width: 100%;
+        float: left;;
+    }
+    .Mensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 10%;
+        margin-left: 5px;
+    }
+    .AgregarMensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 75px;
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) and (orientation: portrait) {
+    .iconoMatriz{
+        height: 50%;
+        margin-top: 5%;
+        margin-bottom: auto;
+        display: inline-block;
+        float: left;
+    }
+    .CabezeraTitulo{
+        width: 80%;
+        font-weight: bold;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    .CabezeraFecha{
+        width: 80%;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    
+    /* Estadísticas del panel*/
+    .Estadisticas{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    .Datos{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+    }
+    .Evolutivo{
+        width: 100%;
+        height: 25%;
+        float: left;
+        margin-bottom: 4%;
+        overflow-y: auto;
+        display: none;
+    }
+    .Usuarios{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+        overflow-y: auto;
+        display: none;
+    }
+    
+    /* Cronograma del hito*/
+    .Buzon{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+    }
+    .Informe{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+        overflow-y: auto;
+    }
+    .TituloBuzon{
+        width: 100%;
+        float: left;;
+    }
+    .Mensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 12%;
+        margin-left: 5px;
+    }
+    .AgregarMensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 115px;
+        margin-left: 2px;
+    }
+    
+}
+
+@media only screen and (min-height: 320px) and (max-height: 375px) and (orientation: landscape) {
+    .iconoMatriz{
+        height: 95%;
+        margin-bottom: auto;
+        display: inline-block;
+        float: left;
+    }
+    .CabezeraTitulo{
+        width: 80%;
+        font-weight: bold;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    .CabezeraFecha{
+        width: 80%;
+        float: left;
+        padding-top: 5px;
+        padding-left: 4px;
+        margin-left: 0.5%;
+    }
+    
+    /* Estadísticas del panel*/
+    /* Estadísticas del panel*/
+    .Estadisticas{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: inline-block;
+        float: left;
+    }
+    .Datos{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+    }
+    .Evolutivo{
+        width: 100%;
+        height: 25%;
+        float: left;
+        margin-bottom: 4%;
+        overflow-y: auto;
+        display: none;
+    }
+    .Usuarios{
+        width: 100%;
+        float: left;
+        margin-bottom: 3%;
+        display: none;
+    }
+    
+    /* Cronograma del hito*/
+    .Buzon{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+    }
+    .Informe{
+        height: 100%;
+        top: 0px;
+        display: inline-block;
+        float: right;
+        overflow-y: auto;
+    }
+    .TituloBuzon{
+        width: 100%;
+        float: left;;
+    }
+    .Mensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 10%;
+        margin-left: 5px;
+    }
+    .AgregarMensajes{
+        width: 98.5%;
+        height: 25%;
+        float: left;
+        margin-bottom: 75px;
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    /* Divisiones */
+    /* Cabezera*/
+    .iconoMatriz{
+        height: 80%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: inline-block;
+        float: left;
+    }
+    .CabezeraTitulo{
+        width: 60%;
+        font-weight: bold;
+        float: left;
+        padding-top: 5px;
+        /*padding-left: 4px;*/
+    }
+    .CabezeraFecha{
+        width: 60%;
+        float: left;
+        padding-top: 5px;
+        /*padding-left: 4px;*/
+    }
+    .CabezeraLogo{
+        width: 38%;
+        float: right;
+    }
+
+    /* Estadísticas del panel*/
+    .Estadisticas{
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow-y: auto;
+    }
+
+}

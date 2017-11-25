@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-oct-2017, 18:50:40
+    Author     : Proyecto Consultoría
+*/
+
+
+.movilIconos {
+    position: absolute;
+    top: 14%;
+    left: 0%;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .7s ease;
+}
+.movilIconosNavegacionTexto{
+    width: 100%;
+    height: 23%;
+    white-space: nowrap; 
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(0%, 50%);
+    -ms-transform: translate(0%, 50%);
+}
+.IconosLista{
+    
+}
+.overlayIcono {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 30px;
+    transition: .7s ease;
+}
+.IconosNavegacion{
+    position: relative;
+    padding-bottom: 10px;
+}
+.IconosNavegacion:hover .overlayIcono {
+    width: 500%;
+}
+.IconosNavegacionTitulo{
+    white-space: nowrap; 
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    overflow: hidden;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.IconosNavegacionTexto{
+    white-space: nowrap; 
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/*Imagenes*/
+.iconoPanel{
+    width: 15%; 
+    margin-left: 17%;
+    display: inline-block;
+}
+.iconoTablero{
+    width: 15%; 
+    margin-left: 17%;
+    display: inline-block;
+}
+.iconoUsuario{
+    width: 15%; 
+    margin-left: 17%;
+    display: inline-block;
+}
+.iconoCerrarSesion{
+    width: 15%; 
+    margin-left: 17%;
+    display: inline-block;
+}
+
+/*Icono plataforma*/
+.detalle{
+    width: 17px;
+    height: 17px;
+}
+.agregar{
+    width: 17px;
+    height: 17px;
+    float: right;
+}
+.editar{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+.cerrar{
+    width: 17px;
+    height: 17px;
+}
+.borrar{
+    width: 17px;
+    height: 17px;
+    float: right;
+}
+.eliminar{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*botones*/
+.boton{
+    background-color: #ababab;
+    color: white;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.boton:hover {
+    background-color: #8c8c8c;
+}
+.botonImagen{
+    color: black;
+    padding: 2px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Adjuntos*/
+.Word{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 1%;
+}
+.Excel{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 1%;
+}
+.Powerpoint{
+    
+}
+.Pdf{
+    
+}

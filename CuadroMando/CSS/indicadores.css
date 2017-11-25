@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-oct-2017, 19:57:06
+    Author     : Proyecto Consultoría
+*/
+
+/*Semaforo*/
+.SemaforoVerde{
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SemaforoAmarillo{
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SemaforoRojo{
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SemaforoGris{
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Texto*/
+.IndicadorGris{
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.IndicadorVerde{
+    color: green;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.IndicadorAmarillo{
+    color: #e6c200;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.IndicadorRojo{
+    color: red;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+/*Tendencia*/
+.tendenciaAlta{
+    width: 0; 
+     height: 0; 
+     border-bottom: 12px solid green;
+     border-left: 7px solid transparent;
+     border-right: 7px solid transparent;
+     margin-left: auto;
+     margin-right: auto;
+}
+.tendenciaBaja{
+    width: 0; 
+     height: 0; 
+     border-top: 12px solid red;
+     border-left: 7px solid transparent;
+     border-right: 7px solid transparent;
+     margin-left: auto;
+     margin-right: auto;
+}
+.tendenciaIgual{
+    width: 20px;
+    height: 18px;
+}
+.tendenciaGris{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Lineas*/
+.hrTemporal{
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: black; 
+    height: 9px;
+    float: left;
+}
+.hrTemporalFin{
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: black; 
+    height: 9px;
+}
+.hrTemporalAcabado{
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: black; 
+    height: 9px;
+}
+.hrTemporalPlus{
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #bbbaba; 
+    height: 9px;
+}
+.hrProgresoVerde{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: green;
+    margin-top: 3px;
+    float: left;
+}
+.hrProgresoVerdeFin{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: green;
+}
+.hrProgresoVerdeHito{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: green;
+    float: left;
+}
+.hrProgresoAmarillo{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: yellow;
+    margin-top: 3px;
+    float: left;
+}
+.hrProgresoAmarilloHito{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: yellow;
+    float: left;
+}
+.hrProgresoRojo{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: red;
+    margin-top: 3px;
+    float: left;
+}
+.hrProgresoRojoHito{
+    border-width: 0px;
+    border-radius: 10px;
+    height: 9px;
+    background-color: red;
+    float: left;
+}
+
