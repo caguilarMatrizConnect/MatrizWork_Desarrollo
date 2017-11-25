@@ -15,6 +15,6 @@
    catch( PDOException $e ) {  
       die( "Error conectando a su base de datos" );   
    }  
-
+   
  
 ?>
